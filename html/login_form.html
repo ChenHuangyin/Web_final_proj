@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="../css/login.css">
+	<script type="application/javascript" src="../js/register_action.js"> </script>
+	<script type="application/javascript" src="../js/login_check.js"> </script>
+	<script type="application/javascript" src="../js/register_check.js"> </script>
+</head>
+<body>
+	<div class="login-page">
+	  <div class="form">
+		<form class="register-form" name="register-form" action="">
+	  	  <p class="check_notice" id="rg_account_notice">请输入帐号!</p>
+		  <input type="text" name="rg_name" id="rg_name" onBlur="oBlur_rg_account()" onFocus="oFocus_rg_account()" placeholder="用户名"/>
+		  <p class="check_notice" id="rg_pass_notice">请输入密码!</p>
+		  <input type="password" name="rg_password" id="rg_password" onBlur="oBlur_rg_pass()" onFocus="oFocus_rg_pass()" placeholder="密码"/>
+		  <p class="check_notice" id="rg_email_notice">请输入邮箱!</p>
+		  <input type="text" name="rg_email" id="rg_email" onBlur="oBlur_rg_email()" onFocus="oFocus_rg_email()" placeholder="邮箱地址"/>
+		  <button>注册</button>
+		  <p class="message">已经有注册账号了？<a href="javascript:void(0)" onclick="login_click()">登录</a></p>
+		</form>
+		<form class="login-form" name="login-form" action="" onSubmit="return lg_submitTest()">
+	  	  <p class="check_notice" id="lg_account_notice">请输入帐号!</p>
+		  <input type="text" name="lg_name" id="lg_name" onBlur="oBlur_lg_account()" onFocus="oFocus_lg_account()" placeholder="请输入用户名"/>
+		  <p class="check_notice" id="lg_pass_notice">请输入密码!</p>
+		  <input type="password" name="lg_password" id="lg_password" onBlur="oBlur_lg_pass()" onFocus="oFocus_lg_pass()" placeholder="请输入密码"/>
+		  <button>登录</button>
+		  <p class="message">还未注册? <a href="javascript:void(0)" onclick="register_click()">点击注册</a></p>
+		</form>
+  	  </div>
+	</div>
+</body>
+</html>
