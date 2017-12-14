@@ -1,0 +1,17 @@
+body{
+	background: #DDDDDD;
+}
+
+.col-personal-left{
+	margin: 200px 80px;
+	width: 500px;
+	height: 1000px;
+	background: red;
+}
+
+.rc_item{
+	margin: 30px 40px;
+	width: 300px;
+	height: 700px;
+	background: red;
+}

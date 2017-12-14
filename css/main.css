@@ -169,3 +169,44 @@
 #Copy{
   position:absolute;left:-200px;bottom:-100px;
 }
+
+.rc_item{
+  margin: 60px 150px;
+  width: 300px;
+  height: 350px;
+  background: white;
+  box-sizing: border-box;
+}
+
+.rc_item_img{
+  margin: 30px 50px;
+  max-width:200px;    
+  max-height:250px;    
+  overflow:hidden;    
+}
+
+.rc_item_name{
+  text-decoration: none;
+  margin: auto 100px;
+  color: black;
+}
+
+.rc_item_icon{
+  margin: 50px 30px;
+  display: inline-block;
+}
+
+.rc_item_author {
+  width: auto;
+  height: auto;
+  margin: auto 0px;
+  display: inline;
+}
+
+.rc_item_author a{
+  text-decoration: none;
+}
+
+.rc_item_time{
+  margin: 0px 20px;
+}
