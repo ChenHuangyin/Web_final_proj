@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <script type="text/javascript" src="../js/roll.js"></script>
+  <script type="text/javascript" src="../js/click_function.js"></script>
+  <script type="text/javascript" src="../js/header_float.js"> </script>
+
+<meta charset="utf-8">
+</head>
+<body>
+  <input type="text" name="Copy" id="Copy" value="213">
+  <div class="navbar" id="navbar">
+      <div class="navbar-img">
+        <a href="../html/login_form.html">
+          <img src="../image/nav-image.png">
+        </a>
+      </div>
+
+      <div class="navbar-tab">
+        <ul>
+          <li>
+            <a href="../html/login_form.html">
+              首页
+            </a>
+          </li>
+          <li>
+            <a href="../html/login_form.html">
+              分类
+            </a>
+          </li>
+          <li>
+            <a href="../html/login_form.html">
+              创建主题
+            </a>
+          </li>
+        </ul>
+      </div>
+
+        <div class="navbar-tab-2">
+            <a href="../html/login_form.html">
+                <img src="../image/user_icon.png" alt="">
+            </a>
+
+            <a href="" title="">MyName</a>
+        </div>
+
+        <div class="navbar-login">
+            <a href="../html/login_form.html">
+                登录
+            </a>
+
+            <a href="" title="">注册</a>
+        </div>
+    </div>    
+	<div id="top">
+		<div id="wrap"><!-- 图片展示区 -->
+      <div id="inner" class="clear"><!-- 所有图片并排的块 -->
+          <img style="background:red;" src="../image/1.jpg" alt="">
+          <img style="background:orange;" src="../image/2.jpg" alt="">
+          <img style="background:green;" src="../image/3.jpg" alt="">
+          <img style="background:cyan;" src="../image/4.jpg" alt="">
+          <img style="background:red;" src="../image/1.jpg" alt="">
+      </div>
+      <div class="paganation" id="paganation"><!-- 页面按钮区域 -->
+          <span class ="selected">1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+      </div>
+      <div id="left" class="arrow"><</div><!-- 向左切换按钮 -->
+      <div id="right" class="arrow">></div><!-- 向右切换按钮 -->    
+		</div>
+	</div>
+  <div id="total_nav" class="total_nav">
+      <div class="nav" id="nv1">
+         <ul>
+           <li><a href="#" class="current" onclick="change_bg(this)">最新推荐</a> </li>
+           <li><a href="#" onclick="change_bg(this)">热度最高</a> </li>
+           <li><a href="#" onclick="change_bg(this)">猜你喜欢</a> </li>
+         </ul>
+      </div>
+  </div>
+  
+	<div id="bottom">
+      
+	</div>
+
+  <div id="addMore">
+      <button id="more" onclick="loadMore()">点击加载更多</button>
+  </div>
+  <div id="bottomright">
+    <a id="test" onclick="toTop()"  href=""><img src="../image/top.png"></a>
+    <a id="share" onclick="toShare()"  href=""><img src="../image/share.png"></a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+#top{
+    width: 1600px;
+    height: 300px;
+    background: rgb(242,242,242);
+    margin: 70px auto auto auto;
+}
+#total_nav{
+  margin: auto;
+  width: 1600px;
+  height: 60px;
+}
+
+.nav {
+  position: relative;
+  margin: 0 auto;
+  width: 55%;
+  height: 60px; 
+  font-size:20px;
+  background-color: rgb(190, 164, 116);
+  background-image: linear-gradient(to right, rgb(194, 176, 142) 3%, rgb(190, 164, 116) 100%);
+}
+.nav ul {
+  padding: 0px; 
+  display: block; 
+  margin: 0px; 
+  list-style-type: none; 
+  height: 60px; 
+}
+.nav li {
+  display: block; 
+  width:150px;
+  text-align:center;
+  font-size:20px;
+}
+.nav li:nth-child(1) {
+  position: absolute;left: 0;
+  display: inline-block;
+}
+.nav li:nth-child(2) {
+  display: inline-block;
+  position: absolute;left: 0;right: 0;
+  margin:0 auto;
+
+}
+.nav li:nth-child(3) {
+  display: inline-block;
+  position: absolute;right: 0;
+}
+.nav li a {
+  display: block; 
+  font-weight:  none; 
+  color:  black; 
+  font-size: 20px;
+  line-height:  60px; 
+  text-decoration:  none;
+}
+.nav li a:hover {
+  font-weight:800;
+  font-size:25px; 
+  text-decoration: none;
+}
+.current{
+ color:#ffffff;
+ border-bottom: rgb(65,65,65) 2px solid;
+}
+#bottom{
+    width: 1600px;
+    height: 800px;
+    background: rgb(242,242,242);
+    margin: 0 auto;
+    overflow: hidden;
+}
+#more{
+  display: block;
+  width: 300px;
+  height: 50px;
+  background-color: rgb(210,210,210);
+  margin: 0 auto;
+}
+#addMore{
+  width: 1600px;
+  height: 50px;
+  background:rgb(242,242,242);
+  margin: 0 auto;
+}
+.clear{
+    *zoom:1;
+}
+.clear:after{
+    visibility: none;
+    content:"";
+    display:block;
+    clear:both;
+    height:0;
+}
+#wrap{
+    width: 55%;
+    height:300px;
+    margin:0 auto;
+    position:relative;
+    background: pink;
+    overflow: hidden;
+}
+#inner{
+    width: 1000%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+}
+#inner img{
+    width:10%;
+    height:100%;
+    float: left;
+}
+.paganation{
+    width: 100%;
+    position: absolute;
+    bottom:10px;
+    text-align:center;
+}
+.paganation span{
+    padding:5px 8px;
+    background: #F2F2F2;
+    color:red;
+    border-radius:50%;
+    cursor: pointer
+}
+.paganation .selected{
+    background: red;
+    color:white;
+}
+.arrow{
+    position:absolute;
+    top:0;
+    width: 30px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+}
+#right{
+    right: 0;
+}
+.arrow:hover{
+    background: rgba(0,0,0,0.5);
+}
+
+#test{
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+#share{
+  width: 50px;
+  height: 50px;
+}
+#bottomright{
+  position:fixed;
+  right:30px;
+  bottom:20px;
+}
+#Copy{
+  position:absolute;left:-200px;bottom:-100px;
+}
