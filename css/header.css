@@ -1,0 +1,111 @@
+*{
+	margin:0;padding:0;
+}
+
+ul,li{
+	list-style:none;
+}
+
+
+#navbar{
+	position:absolute;
+	top:0;
+	left:0%;
+	width:100%;
+	margin:0px;
+	height:70px;
+	line-height:30px;
+	text-align:center;
+	background:#000;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	z-index:2;
+}
+
+.navbar-img a{
+	float: left;
+	font-size: 20px;
+	margin-left: 50px;
+	text-align: center;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+.navbar-tab{
+	height: 50px;
+	display: inline;
+}
+
+.navbar-tab li a{
+	float: left;
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	margin-left: 100px;
+	text-align: center;
+	line-height: 65px;
+	text-decoration: none;
+	color: white;
+}
+
+
+.navbar-tab li:first-child{
+	margin-left: 200px;
+}
+
+.navbar-tab-2{
+	height: 70px;
+	display: inline-block;
+	margin-left: 300px;
+}
+
+.navbar-tab-2 a{
+	float: left;
+	font-size: 25px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 65px;
+	text-decoration: none;
+	color: white;
+}
+
+.navbar-tab-2 a:first-child{
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.navbar-login{
+	height: 70px;
+	display: inline-block;
+	margin-left: -100px;
+}
+
+.navbar-login a{
+	float: left;
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 65px;
+	text-decoration: none;
+	color: white;
+}
+
+.navbar-login a:first-child{
+	float: left;
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	margin-left: 200px;
+	text-align: center;
+	line-height: 65px;
+	text-decoration: none;
+	color: white;
+}
+
+
+
