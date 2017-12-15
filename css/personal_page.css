@@ -14,14 +14,20 @@ div h2{
 	text-align: left;
 	font-weight: 100;
 }
-.col-personal-left{
+.col-personal-scroll{
 	margin: 100px 80px;
-	width: 500px;
+	width: 480px;
 	height: 1000px;
 	background: white;
-	overflow-y: auto;
+	overflow: hidden;
 
 	float: left;
+}
+
+.col-personal-left{
+	width: 500px;
+	height: 1000px;
+	overflow: auto;
 }
 
 .col-person-follower{
