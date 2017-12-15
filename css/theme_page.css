@@ -1,0 +1,76 @@
+body{
+	background: #DDDDDD;
+}
+
+.col-package-info{
+	margin: 100px 80px;
+	width: 380px;
+	height: 600px;
+	background: white;
+	overflow: hidden;
+	float: left;
+}
+
+.col-package-first-img{
+	width: 280px;
+	max-height: 320px;
+	margin: 30px;
+	float: left;
+}
+
+.col-package-first-img img{
+	max-width: 280px;
+	max-height: 320px;
+	margin: 30px 15px;
+}
+
+.col-package-author{
+	float: left;
+	margin: 10px 50px;
+}
+
+.col-package-author a{
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	margin-top: 15px;
+	margin-right: 190px;
+	width: auto;
+}
+
+.col-package-author form{
+	float: right;
+	text-decoration: none;
+	margin-top: 15px;
+	margin-right: 100px;
+}
+
+.col-package-author form button{
+	text-align: center;
+	height: 45px;
+	width: 280px;
+}
+
+.col-package-info-detail{
+	margin: 50px 50px;
+	float: left;
+}
+
+.col-package-download{
+	width: 280px;
+	height: 70px;
+	margin: -20px 80px;
+}
+
+.col-package-download button{
+	text-align: center;
+	height: 60px;
+	width: 380px;
+	background: orange;
+	margin-top: -60px;
+
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
